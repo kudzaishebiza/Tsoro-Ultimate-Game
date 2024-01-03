@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TsoroGame.exe" version="1.0.0.8" publicKeyToken="d6d311ab676a2892" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tsoro.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TsoroGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TsoroGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TsoroGame.exe" size="5743616">
+      <assemblyIdentity name="TsoroGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DOllcYS0D3fdY+NSqb/ZzbuJz6UJWTQ60pUkM7J0+zI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="tsoro.ico" size="3880374">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Khao2ZVUd6gb7eeIOAU7QnMRO+jAolqymgHtsM69UcI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TsoroGame.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=KBIZAPRESARIOCQ\Kudzi Biza" issuerKeyHash="5b28a1251741c6aa0d7257801c4418c0e6032cfe" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FHcKkQcRXkE248sZ52zB5SY/vjgAuUKm3wULdkHA5Gk=</DigestValue></Reference></SignedInfo><SignatureValue>fZwPfrNJCuB1FaFNFg4+g/3nwsp7hg3+5u80zMUo6qitVR9gEuQKEJ/pl5gyMa8/FiLN/JHs5O8pZSTAIZDPnc1K9EQFwu3ExkMDpPP+E/BZpbgWOQ4OrMxVeCJsp7Ov6IQJBfAQ1y8Kg61xuA3PZlOl1cQiM3bbWx7EwnIw86E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>i64S7O5l7hdcHIinVLy4EluHjDxEZOG8NOhssOSTD6TwaLXegyAWdzcDzRZbi33ay3oz5Zq+r8yRkNiPXTZ/5861nvGXYUwa+IUcqQOPn24yNbQMP0dRUh8le4IsVAak/iCgXzF9EqIh3Bxac64cD9rKwaRmu427LWA8OKrX9zE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="69e4c041760b05dfa642b90038be3f26e5c16ce719cbe336415e1107910a7714" Description="" Url=""><as:assemblyIdentity name="TsoroGame.exe" version="1.0.0.8" publicKeyToken="d6d311ab676a2892" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KBIZAPRESARIOCQ\Kudzi Biza</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7+5ZkEzFNxrSpZ2hu2n122q3q2/vT1ovppKT9NJkcPU=</DigestValue></Reference></SignedInfo><SignatureValue>N7hP/ImBgX/s/WFBRlGg4sd9HC/iiU38vGljLwp/FAHXhAr0Zud3A6MeW6rKFaDl0apK7YupPq5RmglL15ARprBekHZzTizo4OpppifX5s4SQqQP0TPpHiVsLUP/Bc7AtWqQmRcInT6TwOg64IlkLKHB7VxzhVcT89/OzdxVbwA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>i64S7O5l7hdcHIinVLy4EluHjDxEZOG8NOhssOSTD6TwaLXegyAWdzcDzRZbi33ay3oz5Zq+r8yRkNiPXTZ/5861nvGXYUwa+IUcqQOPn24yNbQMP0dRUh8le4IsVAak/iCgXzF9EqIh3Bxac64cD9rKwaRmu427LWA8OKrX9zE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQL22jTuvq9IVNc5TlY+mbszANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQASwBCAEkAWgBBAFAAUgBFAFMAQQBSAEkATwBDAFEAXABLAHUAZAB6AGkAIABCAGkAegBhMB4XDTE2MTIxMTIwNDgwM1oXDTE3MTIxMjAyNDgwM1owPzE9MDsGA1UEAx40AEsAQgBJAFoAQQBQAFIARQBTAEEAUgBJAE8AQwBRAFwASwB1AGQAegBpACAAQgBpAHoAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAi64S7O5l7hdcHIinVLy4EluHjDxEZOG8NOhssOSTD6TwaLXegyAWdzcDzRZbi33ay3oz5Zq+r8yRkNiPXTZ/5861nvGXYUwa+IUcqQOPn24yNbQMP0dRUh8le4IsVAak/iCgXzF9EqIh3Bxac64cD9rKwaRmu427LWA8OKrX9zECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAquVbiwnn96MqBKLUZ8Ek+HOSuhieIbNCmZciz5jzgW0uy0ibEJIzrtp4/TuuUdVpjXNOgy4xiho/I7U7m8frWPqqMYuVKXtvicDofPBWNpfspKte+6CtHyhp8CwZ1hJ5PzvgA9UleiORnFFBUMFrLFvOzX/vmWPPaymN6Ipn7Qg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
